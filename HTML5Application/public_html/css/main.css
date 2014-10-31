@@ -1,0 +1,57 @@
+/* CSS File for index.html */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+
+#nav {
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    background-color: crimson;
+}
+
+/* Style the navigation bar links.  */ 
+#nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 8px 0px 8px;
+  color: white;
+  text-decoration: none;
+
+  border: 2px solid;
+  border-color: white;
+  border-radius: 20px;
+}
+
+/* Give the user an affordance that each link is clickable. */
+#nav a:hover {
+  border-color: black;
+  color: black;
+}
+
+/* Style the active page link. */
+#nav a.active{
+  border-color: gray;
+}
+
+#topimage img{
+    max-width: 300px;
+}
+
+#topimage {
+    float: left;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+
+#titles {
+    padding-top: 8px;
+}
+
