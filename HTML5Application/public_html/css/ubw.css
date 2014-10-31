@@ -1,0 +1,15 @@
+
+#wrapper {
+    padding: 10px;
+    background-color: coral;
+}
+
+#aria div {
+    font-style: italic;
+}
+
+#aria {
+   text-align: center; 
+   padding-bottom: 18px;
+}
+

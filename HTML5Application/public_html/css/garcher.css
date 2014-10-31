@@ -1,0 +1,27 @@
+
+#quotes {
+    padding-top: 10px;
+    font-style: italic;
+}
+
+#quotes q {
+    display: block;
+}
+
+img {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#imgDiv {
+    text-align: center;
+}
+
+#wrapper {
+    background-color: coral;
+    padding: 10px;
+    
+}
+
